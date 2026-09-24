@@ -1,0 +1,11 @@
+{
+  "name": "KisanSetu",
+  "description": "AI-Powered Post-Harvest Decision Platform for Indian Agriculture",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

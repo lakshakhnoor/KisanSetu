@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-hindi {
+    font-family: 'Hind', sans-serif;
+  }
+}
+
+body.high-contrast-mode {
+  filter: contrast(115%);
+}
+
+body.high-contrast-mode header,
+body.high-contrast-mode .bg-white {
+  border-color: #000000 !important;
+}
+
